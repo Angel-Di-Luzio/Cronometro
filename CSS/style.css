@@ -27,7 +27,7 @@ header {
 .botones button {
     font-size: 50px;
     padding: 1rem;
-    width: 120px;
+    width: 150px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -36,11 +36,18 @@ header {
     border-radius: 5px;
     background-color: green;
     color: aliceblue;
+    transition: scale 0.2s ease;
 }
 
 #btn-r {
     background-color: blueviolet;
 }
+
+#btn-r:hover, #btn-i:hover {
+    cursor: pointer;
+    scale: 1.1;
+}
+
 table {
     color: #ff9500;
     font-size: 21px;
@@ -54,4 +61,12 @@ thead {
 thead th {
     padding: 1rem;
     padding-top: 0.5rem;
+}
+
+.Vueltas {
+    padding-right: 30px;
+}
+
+.Tiempo {
+    padding-left: 30px;
 }
