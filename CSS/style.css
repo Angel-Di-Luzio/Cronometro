@@ -1,0 +1,47 @@
+body {
+    font-family: 'clockicons', Arial, cursive, sans-serif;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(45 45 45);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#contador {
+    margin-top: 2em;
+    color: #ff9500;
+    font-size: 80px;
+}
+
+.botones {
+    margin: 16px 0;
+    display: flex;
+    gap: 12px;
+}
+
+.botones button {
+    font-size: 50px;
+    padding: 1rem;
+    width: 120px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    color: aliceblue;
+}
+
+#btn-r {
+    background-color: blueviolet;
+}
+
+ul {
+    list-style-type: none;
+    color: rgb(252, 197, 58);
+    margin-left: 0px;
+    padding: 0;
+}
