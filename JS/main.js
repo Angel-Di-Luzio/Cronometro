@@ -3,6 +3,7 @@ const timer = document.getElementById("contador");
 const lista = document.getElementById("lista");
 const btnI = document.getElementById("btn-i");
 const btnR = document.getElementById("btn-r");
+const crp = document.getElementById("cuerpo");
 
 //Variables
 
@@ -16,13 +17,10 @@ timer.innerHTML = `${hrs.toString().padStart(2, "0")}:${min.toString().padStart(
 }
 
 function crearItem(){
-    let li = document.createElement("li");
-    li.innerHTML = "123";
-    lista.appendChild(li);
+    
 }
 
 btnI.addEventListener("click", () => {
-    crearItem();
 });
 
 update();
