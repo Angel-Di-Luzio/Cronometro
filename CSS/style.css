@@ -1,5 +1,5 @@
 body {
-    font-family: 'clockicons', Arial, cursive, sans-serif;
+    font-family: Arial, cursive, sans-serif;
     margin: 0;
     height: 100vh;
     background-color:  rgb(45 45 45);
@@ -55,7 +55,7 @@ table {
 }
 
 thead {
-    font-family: 'OpenSans', cursive, sans-serif;
+    font-family: cursive, sans-serif;
 }
 
 thead th {
